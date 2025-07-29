@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Usuario usuario1 = new Cliente("Amanda", "123cliente");
-        Usuario usuario2 = new Admin("AmandaAdmin", "admin123");
+        Usuario usuario1 = new Cliente("cliente1", "123cliente");
+        Usuario usuario2 = new Admin("1admin", "admin123");
 
         try {
             System.out.print("Digite a senha para o cliente: ");
